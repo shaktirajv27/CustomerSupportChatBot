@@ -55,7 +55,7 @@ The main focus is on usability, clean code structure, and practical implementati
 
 
 ## Project Structure
-
+```
 Customer-Support-Chatbot/
 ├── public/
 │   ├── favicon.ico
@@ -87,7 +87,7 @@ Customer-Support-Chatbot/
 ├── tsconfig.node.json
 ├── vite.config.ts
 └── README.md
-
+```
 
 
 
