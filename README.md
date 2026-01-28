@@ -1,73 +1,166 @@
-# Welcome to your Lovable project
+# Customer Support Chatbot
 
-## Project info
+Customer Support Chatbot is a web-based application designed to automate customer queries and provide quick, meaningful responses through a simple and clean chat interface.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This project focuses on building a modern frontend with a scalable structure and integrating it with backend services and AI APIs to simulate a real-world customer support system.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Live Demo
 
-**Use Lovable**
+https://customersupportai.lovable.app/
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## About the Project
 
-**Use your preferred IDE**
+Customer support is an essential part of any product, but handling repeated queries manually can be time-consuming and inefficient.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This project was built to:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Provide instant responses to common user queries  
+2. Reduce dependency on manual customer support  
+3. Offer a clean, responsive, and easy-to-use chat interface  
+4. Demonstrate how modern frontend tools can be used in real-world applications  
 
-Follow these steps:
+The main focus is on usability, clean code structure, and practical implementation.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
+### Frontend
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- shadcn/ui
 
-## How can I deploy this project?
+### Backend & Services
+- Supabase (database, authentication, edge functions)
+- API-based AI integration
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### Tools
+- Node.js
+- npm
+- Git & GitHub
+- ESLint
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## Features
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Real-time chat interface  
+- Clean and minimal UI  
+- Fully responsive design  
+- Modular and scalable folder structure  
+- Secure handling of environment variables  
+- Fast development workflow using Vite  
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## Project Structure
+
+Customer-Support-Chatbot/
+├── public/ # Static assets (favicon, icons)
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── contexts/ # Global state management
+│ ├── hooks/ # Custom React hooks
+│ ├── integrations/ # API and service integrations
+│ ├── lib/ # Utility functions
+│ ├── pages/ # Application pages
+│ ├── types/ # TypeScript types
+│ ├── App.tsx
+│ └── main.tsx
+├── supabase/
+│ ├── functions/ # Supabase edge functions
+│ └── migrations/ # Database migrations
+├── .env # Environment variables (ignored)
+├── package.json
+├── tailwind.config.ts
+├── vite.config.ts
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## How to Run Locally
+
+### Prerequisites
+- Node.js (v18 or later)
+- npm
+
+### Steps
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/shaktirajv27/CustomerSupportChatBot.git
+Navigate to the project directory
+
+bash
+Copy code
+cd CustomerSupportChatBot
+Install dependencies
+
+bash
+Copy code
+npm install
+Start the development server
+
+bash
+Copy code
+npm run dev
+Open the application in your browser
+
+arduino
+Copy code
+http://localhost:5173
+Environment Variables
+Create a .env file in the root directory and add the required values:
+
+ini
+Copy code
+VITE_API_URL=your_api_url_here
+VITE_API_KEY=your_api_key_here
+Note:
+
+Do not commit the .env file to GitHub
+
+Make sure .env is listed in .gitignore
+
+Production Build
+To generate a production-ready build:
+
+bash
+Copy code
+npm run build
+The optimized build will be created inside the dist/ folder.
+
+Code Quality
+TypeScript is used for better maintainability
+
+Components and logic are separated clearly
+
+Reusable hooks and utilities are used
+
+ESLint ensures consistent code style
+
+Author
+Developed by Shaktiraj Vala
+
+GitHub:
+https://github.com/shaktirajv27
+
+Support
+If you find this project useful:
+
+Star the repository
+
+Fork it
+
+Share it with others
+
+Your support helps encourage further development and learning.
