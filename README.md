@@ -116,8 +116,8 @@ Customer-Support-Chatbot/
 ## Environment Variables
 
 Create a .env file in the root directory and add the required values:
-  VITE_API_URL=your_api_url_here
-  VITE_API_KEY=your_api_key_here
+-  VITE_API_URL=your_api_url_here
+-  VITE_API_KEY=your_api_key_here
   
 # Note:
 Do not commit the .env file to GitHub
