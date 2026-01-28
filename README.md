@@ -82,8 +82,6 @@ Customer-Support-Chatbot/
 ├── vite.config.ts
 └── README.md
 
-yaml
-Copy code
 
 ---
 
@@ -98,69 +96,17 @@ Copy code
 1. Clone the repository
    ```bash
    git clone https://github.com/shaktirajv27/CustomerSupportChatBot.git
-Navigate to the project directory
+2. Navigate to the project directory
+   cd CustomerSupportChatBot
+3. Install dependencies
+   npm install
+4. Start the development server
+   npm run dev
+5. Open the application in your browser
+   http://localhost:8080/
 
-bash
-Copy code
-cd CustomerSupportChatBot
-Install dependencies
 
-bash
-Copy code
-npm install
-Start the development server
 
-bash
-Copy code
-npm run dev
-Open the application in your browser
+## sga
+### bapu
 
-arduino
-Copy code
-http://localhost:5173
-Environment Variables
-Create a .env file in the root directory and add the required values:
-
-ini
-Copy code
-VITE_API_URL=your_api_url_here
-VITE_API_KEY=your_api_key_here
-Note:
-
-Do not commit the .env file to GitHub
-
-Make sure .env is listed in .gitignore
-
-Production Build
-To generate a production-ready build:
-
-bash
-Copy code
-npm run build
-The optimized build will be created inside the dist/ folder.
-
-Code Quality
-TypeScript is used for better maintainability
-
-Components and logic are separated clearly
-
-Reusable hooks and utilities are used
-
-ESLint ensures consistent code style
-
-Author
-Developed by Shaktiraj Vala
-
-GitHub:
-https://github.com/shaktirajv27
-
-Support
-If you find this project useful:
-
-Star the repository
-
-Fork it
-
-Share it with others
-
-Your support helps encourage further development and learning.
